@@ -5,7 +5,7 @@ data pipes as interconnected async streams, providing an intuitive and flexible 
 to build data pipelines.
 
 
-![image](images/snake.png)
+<img src="images/snake.png" width="250" height="250">
 
 ## Dependency
 [pyo3 async fn tracking issue](https://github.com/PyO3/pyo3/issues/1632)

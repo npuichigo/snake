@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    "snake",
     "snake-pyo3",
 ]
 resolver = "2"
@@ -9,3 +8,4 @@ resolver = "2"
 futures = "0.3"
 par-stream = { version = "0.10.2", features = ["runtime-tokio"] }
 tokio = { version = "1", features = ["full"] }
+async-stream = "0.3.5"

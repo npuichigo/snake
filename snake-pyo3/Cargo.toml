@@ -13,6 +13,4 @@ pyo3-async = "0.3.2"
 futures = { workspace = true }
 par-stream = { workspace = true }
 tokio = { workspace = true }
-rand = "0.8.5"
-flume = "0.11.0"
-async-stream = "0.3.5"
+async-stream = { workspace = true }

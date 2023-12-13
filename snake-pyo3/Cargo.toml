@@ -1,0 +1,16 @@
+[package]
+name = "snake-pyo3"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "snakedata"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20"
+pyo3-async = "0.3.2"
+futures = { workspace = true }
+par-stream = { workspace = true }
+tokio = { workspace = true }
+async-stream = { workspace = true }
